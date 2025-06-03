@@ -1,0 +1,13 @@
+{
+  "name": "pdf-generator",
+  "version": "1.0.0",
+  "description": "Generador de PDF con header y footer de marca usando Markdown",
+  "main": "generate-pdf.js",
+  "scripts": {
+    "start": "node generate-pdf.js"
+  },
+  "dependencies": {
+    "marked": "^11.0.0",
+    "puppeteer": "^21.3.8"
+  }
+}
